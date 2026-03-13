@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #050505;
+  color: white;
+  margin: 0;
+  font-family: 'Syne', sans-serif;
+  cursor: none; /* Keeps the normal mouse hidden on the black background */
+}
+
+/* Bring the normal pointing hand back for ALL interactive elements across the whole site */
+a, button, .cursor-pointer {
+  cursor: pointer;
+}
+
+/* Normal arrow for the empty spaces in the navbar */
+nav {
+  cursor: default; 
+}
